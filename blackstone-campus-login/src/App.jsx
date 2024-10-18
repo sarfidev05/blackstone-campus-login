@@ -26,9 +26,9 @@ function App() {
 
   return (
     <>
-    <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', backgroundColor: '#FBF4F4'}}>
+    <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', backgroundColor: '#053976'}}>
     <Header />
-    <button onClick={toggleDarkMode}>
+    <button style={{ height: '45px' }} onClick={toggleDarkMode}>
       {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
     </button>
     </div>

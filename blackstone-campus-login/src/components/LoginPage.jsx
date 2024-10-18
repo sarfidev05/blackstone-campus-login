@@ -44,7 +44,7 @@ const LoginPage = () => {
   return (
     <div className="login-container">
       <div className="login-box">
-        <div style={{ backgroundColor: '#ffffff', padding: '10px', borderRadius:'5px', marginBottom: '12px' }}>
+        <div className='form-logo'>
         <img src={logo} alt="login" width={250} />
         </div>
         {error && <p className="error">{error}</p>}
