@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './components/LoginPage';
 import AdminDashboard from './components/AdminDashboard';
@@ -26,9 +26,9 @@ function App() {
 
   return (
     <>
-    <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap', backgroundColor: '#053976'}}>
+    <div className='dark-mode-btn'>
     <Header />
-    <button style={{ height: '45px' }} onClick={toggleDarkMode}>
+    <button onClick={toggleDarkMode}>
       {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
     </button>
     </div>

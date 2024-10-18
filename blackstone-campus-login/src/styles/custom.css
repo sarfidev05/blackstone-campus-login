@@ -17,3 +17,17 @@
     border-radius: 5px;
     margin-bottom: 12px;
 }
+
+/* Dark Mode Button Styles */
+
+.dark-mode-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #053976;
+}
+
+.dark-mode-btn button {
+    height: 45px;
+}
